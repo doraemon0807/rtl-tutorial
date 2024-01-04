@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MyPage from "./component/MyPage";
+import GetBy from "./component/GetBy";
 
 function App() {
   return (
     <div className="App">
+      <MyPage user={{ name: "Kim" }} />
+      <GetBy />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
